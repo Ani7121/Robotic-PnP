@@ -14,7 +14,7 @@ The human Chief Engineer remains the sole design authority and executor.
 
 ## Engineering Team
 
-For major engineering tasks, use the following five roles:
+For major engineering tasks, use the following six roles:
 
 - **Systems / Technical Program Manager**  
   `.codex/roles/systems-tpm.md`
@@ -31,7 +31,11 @@ For major engineering tasks, use the following five roles:
 - **Concept Creative**  
   `.codex/roles/concept-creative.md`
 
-The TPM should determine which roles are relevant to each task. Do not involve every role unnecessarily.
+- **Technical Communicator**
+
+  `.codex/roles/technical-communicator.md`
+
+The TPM should determine which roles are relevant to each task. The five engineering perspectives conduct independent assessments; the Technical Communicator joins after technical synthesis. Do not involve every role unnecessarily.
 
 ## Engineering Workflow
 
@@ -118,6 +122,12 @@ Do not force consensus.
 
 If multiple approaches remain technically credible, preserve them and identify the experiment or analysis that would distinguish them.
 
+### 6. Chief Engineer reference
+
+After engineering synthesis, the Technical Communicator reads the technical recommendation, supporting evidence and recorded discussion. It creates a separate plain-language reference that explains the solution intuitively, using simple visuals and concrete explanations without talking down to the reader.
+
+Keep both documents: the engineers own the technical recommendation; the communicator owns the explanation. Preserve the technical report, evidence and raw discussion as linked references. The communicator must check unclear explanations with the responsible engineers, record those exchanges, and preserve uncertainty and dissent. It may not silently change the architecture or present an analogy as engineering evidence.
+
 ## Evidence Rules
 
 Always distinguish between:
@@ -202,6 +212,7 @@ The human Chief Engineer retains final authority.
 ## Chief Engineer reports and team discussion
 
 - Default to a one-page, human-readable decision sheet: (1) status and context, (2) direct answer to the task question, (3) short supporting facts and explanation. Use a simple diagram where useful.
+- Also provide a separate Technical Communicator reference for major design reviews. Explain what the reader should picture, how one cycle works, why the difficult parts matter, and what remains unknown. Keep it concise, but allow enough detail to teach the solution. Link the engineering recommendation, evidence and transcript; preserve those originals.
 - Include concise risks, milestones and next tasks when requested. Link requirements and primary sources beside the claims they support. Label calculations, assumptions and unverified recommendations.
 - Keep internal workflow and lengthy analysis out of the decision sheet. Integrate creative alternatives into the engineering recommendations; do not present a separate creative section.
 - After independent assessments, enable direct discussion among participating agents. Record their actual exchanged engineering messages in a separate transcript file and link it from the report. Do not reconstruct unrecorded conversations.

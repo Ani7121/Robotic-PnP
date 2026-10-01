@@ -1,5 +1,7 @@
 # TASK-002 — Independent System Design
 
+[Plain-language Chief Engineer reference](TASK-002-chief-engineer-reference.md) · [Review index](README.md)
+
 ## 1. Status and context
 
 **PROPOSED · 1 October 2026 · No demonstrated insertion performance**

@@ -23,10 +23,10 @@ From the repo root, start Claude Code and ask:
 
 Use ordinary subagents instead of a full agent team for small isolated research/checking tasks.
 
-## 5. Run the Codex Challenger Team
+## 5. Run the Codex Engineering Team
 From the repo root, start Codex and ask:
 
-> Read AGENTS.md, ENGINEERING_CONSTITUTION.md, PROJECT_STATE.md, and TASK-001. Use multi-agent tools to run the five-role Challenger Team from .codex/roles/. First produce an independent Codex proposal without reading Claude's proposal. Then read Claude's proposal, cross-review it, and preserve remaining disagreements.
+> Read AGENTS.md, ENGINEERING_CONSTITUTION.md, PROJECT_STATE.md, and the active task. Follow any requirements-only restrictions in that task. Use the relevant engineering roles from .codex/roles/ for independent assessment and recorded peer discussion. Produce the technical recommendation, then have the Technical Communicator create a separate intuitive Chief Engineer reference. Preserve and link the technical report, evidence and discussion. Do not mark decisions ACCEPTED. Claude is currently inactive; cross-review only if the Chief Engineer activates it.
 
 ## 6. Human decision
 Compare both proposals. If evidence is insufficient, commission an experiment instead of forcing consensus.
