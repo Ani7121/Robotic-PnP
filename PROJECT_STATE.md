@@ -28,28 +28,26 @@ Nominal array-holder channel:
 
 ### Budget
 - Total project hardware budget: $1,500.
-- Per-prototype spending threshold before human approval: TBD.
 
 ### Timeline
-- Target date: End of subcontract Period of Performance; exact date TBD.
+- Target date: End of subcontract Period of Performance; around december 2026
 - Near-term milestone: Demonstrate reliable localization, pickup, and precision alignment using surrogate sticks and representative array holder.
 
 ### Available equipment
 - UR3e robotic arm.
 - Sandia may provide a LumenPnP if useful.
-- Cameras/optics: TBD.
+- Cameras/optics: potential depth camera availability.
 - Sandia will provide representative Bi₂Te₃ parts and non-sensitive array holders.
 - Sandia will provide tin density-matching surrogate sticks.
 - Sandia will provide graphite tribological surrogate sticks.
-- Machine tools/metrology available at UT: TBD.
+- Machine tools/metrology available at UT: calipers, machine shop (CNC, lathe, mill, saws)
 
 ### Manufacturing capability
 - CAD/design capability available.
-- 3D printing and conventional machining capability: availability/capability TBD.
-- Precision flexure fabrication capability: TBD.
+- 3D printing and conventional machining capability: available. 2 machine shops, each has lathes, mills, one has HAAS Minimill. Both have band saws, taps, measuring tools, and bits. Also have access to basic workshop with drills and other hand tools. 3D printers include Bambu X1Cs and prusas. Also have resin 
+- 
 
 ## Current accepted architecture
-No detailed architecture has been formally accepted yet.
 
 Current leading concept:
 1. Array holder is mechanically constrained in a replaceable fixture.
