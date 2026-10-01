@@ -198,3 +198,12 @@ If the Claude team is activated in the future for independent review:
 Neither team should force consensus.
 
 The human Chief Engineer retains final authority.
+
+## Chief Engineer reports and team discussion
+
+- Default to a one-page, human-readable decision sheet: (1) status and context, (2) direct answer to the task question, (3) short supporting facts and explanation. Use a simple diagram where useful.
+- Include concise risks, milestones and next tasks when requested. Link requirements and primary sources beside the claims they support. Label calculations, assumptions and unverified recommendations.
+- Keep internal workflow and lengthy analysis out of the decision sheet. Integrate creative alternatives into the engineering recommendations; do not present a separate creative section.
+- After independent assessments, enable direct discussion among participating agents. Record their actual exchanged engineering messages in a separate transcript file and link it from the report. Do not reconstruct unrecorded conversations.
+- Preserve unresolved disagreement and human decision authority.
+- Check completed changes, then commit and push them to the repository's GitHub remote, as authorized by the Chief Engineer.
