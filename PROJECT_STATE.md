@@ -23,6 +23,7 @@ Nominal array-holder channel:
 - REQ-SYS-005: Address modifications required for sticks up to 1 mm × 1 mm × 20 mm.
 - REQ-SYS-006: System shall support placement into multiple/swappable array holders.
 - REQ-SYS-007: Required stick-to-channel positioning/alignment accuracy is TBD experimentally. 5 µm is currently an engineering target, NOT a Sandia requirement.
+- REQ-SYS-008: Automatically unload completed array holders and load fresh ones (Chief Engineer clarification, 2 October 2026). Unattended batch capacity, holder retention and exchange-time allocation remain TBD. A manual swap is not the completed-system solution.
 
 ## Known constraints
 
@@ -112,7 +113,7 @@ Candidate pickup architectures include compliant mechanical gripping and vacuum.
 - RISK-004: Mechanical gripping may damage brittle Bi₂Te₃; vacuum may introduce pose uncertainty and system complexity.
 - RISK-005: A custom multi-DOF micropositioner may consume excessive budget and development time if unnecessary DOFs are implemented.
 - RISK-006: Calibration/transform errors between cameras, fiducials, end effector, stick, and holder may consume the alignment-error budget.
-- RISK-007: Automated sorting and array-holder exchange may expand project scope beyond the core insertion problem.
+- RISK-007: Automatic holder exchange is required; carrier access, finished-stick retention, buffer capacity and recovery may invalidate the architecture or exceed budget/schedule. Upstream sorting responsibility remains unresolved.
 
 ## Next decision required
 Experimentally determine the insertion capture envelope versus X/Y offset and angular misalignment using surrogate sticks and representative array holders. Use those results to establish the actual alignment requirement before selecting the vision system or micropositioner architecture.
