@@ -4,7 +4,7 @@ Supporting reference for the [decision sheet](TASK-002-independent-system-design
 
 ## Scope and independence
 
-Five fresh specialist threads received the [requirements-only brief](../tasks/TASK-002-requirements-only.md), role instructions and constitution, with no conversation history. They were instructed not to read prior architectures, TASK-001 reviews or the architecture-bearing project state. Written assessments preceded peer discussion. The synthesis lead already knew the previous design; this was a fresh specialist assessment, not a fully blind lead review. Original submissions and actual engineering messages are preserved in the [discussion record](TASK-002-team-discussion.md).
+Five fresh specialist threads received the [requirements-only brief](../../../../tasks/TASK-002-requirements-only.md), role instructions and constitution, with no conversation history. They were instructed not to read prior architectures, TASK-001 reviews or the architecture-bearing project state. Written assessments preceded peer discussion. The synthesis lead already knew the previous design; this was a fresh specialist assessment, not a fully blind lead review. Original submissions and actual engineering messages are preserved in the [discussion record](../records/TASK-002-team-discussion.md).
 
 ## C1. Clearance and orientation
 

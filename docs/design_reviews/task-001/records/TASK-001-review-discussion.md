@@ -1,6 +1,6 @@
 # TASK-001 — Recorded review discussion
 
-Date: 1 October 2026. Scope: discussion for the revised [decision sheet](TASK-001-system-architecture-process-flow.md).
+Date: 1 October 2026. Scope: discussion for the revised [decision sheet](../engineering/TASK-001-system-architecture-process-flow.md).
 
 Participants: Systems / lead, Mechanical, Electrical and Robotics. Process-reframing alternatives were integrated into their discussion. This revision reused three specialist threads; it did not run five separate role threads.
 

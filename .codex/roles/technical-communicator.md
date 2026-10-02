@@ -8,7 +8,7 @@ Read AGENTS.md, ENGINEERING_CONSTITUTION.md, the active task, its engineering re
 
 ## Output
 
-Create a separate `docs/design_reviews/TASK-XXX-chief-engineer-reference.md`:
+Create the Chief Engineer reference in the relevant task/topic folder under `docs/design_reviews/`. Keep it at the topic's top level, technical reports under `engineering/`, and discussion records under `records/`. Link it from the topic README and main review index:
 
 1. Status and context: the question, relevant constraints and whether the solution is proposed or demonstrated.
 2. Direct answer: what is recommended, with a simple picture or diagram.

@@ -2,7 +2,7 @@
 
 ## 1. Status and context
 
-**PROPOSED.** Both designs use the same idea: let the robot carry the stick close, then use a separate precision mechanism for final alignment. Task 002 changes where that mechanism sits. Neither layout has demonstrated insertion performance; the Chief Engineer retains the decision. [Engineering comparison](TASK-002-architecture-comparison.md)
+**PROPOSED.** Both designs use the same idea: let the robot carry the stick close, then use a separate precision mechanism for final alignment. Task 002 changes where that mechanism sits. Neither layout has demonstrated insertion performance; the Chief Engineer retains the decision. [Engineering comparison](engineering/TASK-002-architecture-comparison.md)
 
 ## 2. Direct answer: move the stick or move the hole
 
@@ -28,8 +28,8 @@ In the earlier cycle, the robot picks and turns the stick, measures its relation
 
 Supporting the head does not necessarily straighten the actual stick. Sideways motion can center its tip while its shaft still leans into a channel wall. Both layouts must measure shaft tilt or bound it through a tested mechanical constraint.
 
-**CALCULATION:** Nominal dimensions leave only 10 micrometers per side for the largest stick. Assuming 12 mm engagement, an entrance-centered straight stick uses that margin at about 0.048 degrees tilt. Actual depth, bow and other errors change this allowance; it is not a measured tolerance. [Geometry and evidence](TASK-002-evidence.md#c1-clearance-and-orientation)
+**CALCULATION:** Nominal dimensions leave only 10 micrometers per side for the largest stick. Assuming 12 mm engagement, an entrance-centered straight stick uses that margin at about 0.048 degrees tilt. Actual depth, bow and other errors change this allowance; it is not a measured tolerance. [Geometry and evidence](../01-system-design/engineering/TASK-002-evidence.md#c1-clearance-and-orientation)
 
 **OPEN QUESTION:** Which support arrangement stays aligned through insertion and release without damaging sticks or colliding with filled neighbors?
 
-The smallest useful test first maps safe offset/tilt limits with manual or borrowed metrology, then compares the same grip and holder with arm support and station support. Measure actual alignment, contact, seating, release and time. Surrogates help setup; real parts establish damage behavior. A manual support test does not validate automated docking. [Evidence](TASK-002-evidence.md) · [Discussion](TASK-002-comparison-discussion.md)
+The smallest useful test first maps safe offset/tilt limits with manual or borrowed metrology, then compares the same grip and holder with arm support and station support. Measure actual alignment, contact, seating, release and time. Surrogates help setup; real parts establish damage behavior. A manual support test does not validate automated docking. [Evidence](../01-system-design/engineering/TASK-002-evidence.md) · [Discussion](records/TASK-002-comparison-discussion.md)

@@ -1,6 +1,6 @@
 # TASK-002 — Technical Communicator Review
 
-1 October 2026. Recorded clarification and accuracy review for the [Chief Engineer reference](TASK-002-chief-engineer-reference.md). The [engineering report](TASK-002-independent-system-design.md), [evidence](TASK-002-evidence.md) and [original team discussion](TASK-002-team-discussion.md) remain separate references.
+1 October 2026. Recorded clarification and accuracy review for the [Chief Engineer reference](../TASK-002-chief-engineer-reference.md). The [engineering report](../engineering/TASK-002-independent-system-design.md), [evidence](../engineering/TASK-002-evidence.md) and [original team discussion](TASK-002-team-discussion.md) remain separate references.
 
 Messages below preserve the actual wording of the exchange. Approval here concerns accuracy of the explanation for publication as PROPOSED; it does not accept the architecture. Temporary JSON log paths mentioned in the messages were consolidated into this file.
 

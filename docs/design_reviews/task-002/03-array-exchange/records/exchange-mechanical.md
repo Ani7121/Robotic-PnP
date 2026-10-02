@@ -38,7 +38,7 @@
 
 ## Actual exchanged engineering messages
 
-Independent assessment completed before reading peer exchange assessments. Subsequently read [clarified exchange task](../../tasks/TASK-002-array-exchange-follow-up.md) and updated REQ-SYS-008. Fixed nests can receive a shuttle as well as robot-delivered carriers; logistics and fine-stage location are independent choices.
+Independent assessment completed before reading peer exchange assessments. Subsequently read [clarified exchange task](../../../../tasks/TASK-002-array-exchange-follow-up.md) and updated REQ-SYS-008. Fixed nests can receive a shuttle as well as robot-delivered carriers; logistics and fine-stage location are independent choices.
 
 **Controls to Mechanical:**
 > Controls first pass: prefer common pallet shuttle/indexer across precision layouts if feasible, because docked support does not imply UR flange is free. Robot-based exchange requires mechanically released head plus holder grip, or carried-head toolchanger/integrated secondary grip. Loaded pallet transfer must clear maximum protruding sticks and hold them through acceleration. What passive carriage/retention arrangement handles finished arrays without overhead pickup over occupied channels?

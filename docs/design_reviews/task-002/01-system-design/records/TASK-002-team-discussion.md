@@ -1,6 +1,6 @@
 # TASK-002 — Recorded Team Discussion
 
-1 October 2026. [Decision sheet](TASK-002-independent-system-design.md) · [Checked evidence](TASK-002-evidence.md).
+1 October 2026. [Decision sheet](../engineering/TASK-002-independent-system-design.md) · [Checked evidence](../engineering/TASK-002-evidence.md).
 
 Five fresh role threads received only the requirements brief and repository/role instructions. Independent written submissions preceded peer review. The lead had prior project context; specialist threads did not inherit it. Three specialists could run concurrently, so review proceeded in batches. Participants could address every other role; failed sends were routed through the lead by having recipients read the exact logged text. Delivery failures and later acknowledgments are retained below.
 
@@ -14,7 +14,7 @@ This file preserves written submissions and logged outgoing engineering messages
 ```markdown
 # TASK-002 independent Systems/TPM first pass — PROPOSED
 
-**Basis:** [requirements-only brief](../../tasks/TASK-002-requirements-only.md); no prior architecture consulted. Human Chief Engineer retains decision authority.
+**Basis:** [requirements-only brief](../../../../tasks/TASK-002-requirements-only.md); no prior architecture consulted. Human Chief Engineer retains decision authority.
 
 **ENGINEERING JUDGMENT:** Minimum credible system: manually replenish a horizontal presentation tray; UR3e picks and turns a stick upright; a local insertion station registers the actual stick and channel, corrects relative position/orientation, and performs slow, travel-limited insertion with independently established damage protection. Manually swap holders in a repeatable fixture and load their coordinate map. A deterministic sequence handles absent parts, failed pickup, obstruction and incomplete seating. Manual preparation is an assumption requiring agreement; the machine still performs each pick and insertion automatically.
 

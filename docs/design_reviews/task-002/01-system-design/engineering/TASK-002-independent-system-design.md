@@ -1,6 +1,6 @@
 # TASK-002 — Independent System Design
 
-[Plain-language Chief Engineer reference](TASK-002-chief-engineer-reference.md) · [Review index](README.md)
+[Plain-language Chief Engineer reference](../TASK-002-chief-engineer-reference.md) · [Review index](../../../README.md)
 
 ## 1. Status and context
 
@@ -10,7 +10,7 @@
 
 **Constraints:** Horizontal Bi₂Te₃ sticks, 500–510 µm square × ~12 mm, inserted vertically into ~530 µm square channels. Existing UR3e; $1,500 hardware budget; approximately December 2026 completion. Targets: ≤60 s/stick, ≤3 ft × 6 ft, no functional damage, swappable holders, modifications for 1 × 1 × 20 mm sticks.
 
-Trace: [Task 2](../tasks/Task-002), [requirements-only brief: REQ-SYS-001–007](../tasks/TASK-002-requirements-only.md). Five fresh role assessments used this brief, excluding previous designs.
+Trace: [Task 2](../../../../tasks/Task-002), [requirements-only brief: REQ-SYS-001–007](../../../../tasks/TASK-002-requirements-only.md). Five fresh role assessments used this brief, excluding previous designs.
 
 ## 2. Answer
 
@@ -50,4 +50,4 @@ One sequencer controls pickup, imaging, holder motion and insertion. Register ea
 3. Verify optical uncertainty, contact/stopping limits and required motion axes; confirm borrowed equipment and priced hardware fit the budget. REQ-SYS-003, 007.
 4. Automate and time multi-channel trials, holder swaps and fault recovery; document larger-stick changes. REQ-SYS-001–006.
 
-**Proposed milestones:** October—handling/insertion evidence; November—automatic station; December—real-part demonstration. [Evidence and edge cases](TASK-002-evidence.md) · [Recorded discussion](TASK-002-team-discussion.md)
+**Proposed milestones:** October—handling/insertion evidence; November—automatic station; December—real-part demonstration. [Evidence and edge cases](TASK-002-evidence.md) · [Recorded discussion](../records/TASK-002-team-discussion.md)

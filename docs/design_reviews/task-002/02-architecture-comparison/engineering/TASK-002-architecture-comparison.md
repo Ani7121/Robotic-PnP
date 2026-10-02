@@ -6,7 +6,7 @@
 
 **Question:** How does Task 002 compare with the earlier coarse positioning + fine alignment idea?
 
-Baseline: [original workflow](../../PROJECT_STATE.md#current-accepted-architecture), [Task 001 review](TASK-001-system-architecture-process-flow.md). Candidate: [Task 002](TASK-002-independent-system-design.md). This requested follow-up permits comparing the previously excluded design; the original independent assessment remains unchanged. No new measurements were made.
+Baseline: [original workflow](../../../../../PROJECT_STATE.md#current-accepted-architecture), [Task 001 review](../../../task-001/engineering/TASK-001-system-architecture-process-flow.md). Candidate: [Task 002](../../01-system-design/engineering/TASK-002-independent-system-design.md). This requested follow-up permits comparing the previously excluded design; the original independent assessment remains unchanged. No new measurements were made.
 
 ## 2. Answer
 
@@ -37,7 +37,7 @@ Task 002: UR3e → supported insertion head + stick
 
 ## 3. Short basis and next decision
 
-**CALCULATION:** Nominal side clearance is `(530−510)/2 = 10 µm`. At an assumed 12 mm engagement, ideal entrance-centered tilt reaches that margin at about **0.048°**; an adverse 5 µm offset halves the angle. Actual depth, bow, yaw and measurement uncertainty change the allowance. [Geometry and assumptions](TASK-002-evidence.md#c1-clearance-and-orientation), REQ-SYS-004/007.
+**CALCULATION:** Nominal side clearance is `(530−510)/2 = 10 µm`. At an assumed 12 mm engagement, ideal entrance-centered tilt reaches that margin at about **0.048°**; an adverse 5 µm offset halves the angle. Actual depth, bow, yaw and measurement uncertainty change the allowance. [Geometry and assumptions](../../01-system-design/engineering/TASK-002-evidence.md#c1-clearance-and-orientation), REQ-SYS-004/007.
 
 **SOURCE-BASED FACT:** UR3e specifies ±30 µm pose repeatability and 3.5 N force accuracy. These do not establish relative insertion accuracy or a damage-safe stopping threshold. [Manufacturer specification](https://www.universal-robots.com/manuals/EN/HTML/SW10_11/Content/prod-usr-man/complianceUR3e/H_g5_sections/appendix_g5/tech_spec_data.htm), checked 2 October 2026.
 
@@ -45,8 +45,8 @@ Task 002: UR3e → supported insertion head + stick
 
 **Smallest discriminating test:** Use the same grip, holder and stick geometry. First map safe XY/angle/depth limits with borrowed/manual metrology. Then compare arm-supported and station-supported configurations through rotation, support, insertion and release, including adjacent filled channels. Measure actual stick-to-channel offset/tilt, grip shift, peak contact, end-to-end stopping motion, seating, pullout and cycle time. Revalidate a stored pickup pose after rotation if slip or bow can change it. Use surrogates for setup; real Bi₂Te₃ is required to establish damage behavior. A manual support test screens the idea; it does not validate an automated dock.
 
-Choose the layout only after it meets the measured alignment/damage envelope, clears populated channels, and has a priced implementation within **$1,500** and a demonstrated path to **≤60 s/stick**. No numerical safe force or universal optical tolerance is established. [Requirements](../tasks/TASK-002-requirements-only.md), [contact/time checks](TASK-002-evidence.md#c2-contact-and-cycle-time-limits).
+Choose the layout only after it meets the measured alignment/damage envelope, clears populated channels, and has a priced implementation within **$1,500** and a demonstrated path to **≤60 s/stick**. No numerical safe force or universal optical tolerance is established. [Requirements](../../../../tasks/TASK-002-requirements-only.md), [contact/time checks](../../01-system-design/engineering/TASK-002-evidence.md#c2-contact-and-cycle-time-limits).
 
 **Confidence:** High that both share the same principle; low that either physical layout is superior. Retaining the grip avoids transfers; mechanically constraining the shaft may reduce tilt but adds contact and release risks. Test that fork separately rather than attributing it to stage location.
 
-[Plain-language comparison](TASK-002-comparison-reference.md) · [Specialist assessments and actual discussion](TASK-002-comparison-discussion.md)
+[Plain-language comparison](../TASK-002-comparison-reference.md) · [Specialist assessments and actual discussion](../records/TASK-002-comparison-discussion.md)

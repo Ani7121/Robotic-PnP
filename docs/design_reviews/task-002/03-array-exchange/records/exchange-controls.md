@@ -1,4 +1,4 @@
-﻿# TASK-002 automatic array exchange: electrical and robotics assessment
+# TASK-002 automatic array exchange: electrical and robotics assessment
 
 Status: PROPOSED, 2 October 2026. New Chief Engineer requirement: automatically unload finished arrays and load fresh arrays. This supersedes the requirements-only brief's earlier statement that automatic exchange was not explicit. No measurements or design acceptance.
 
@@ -73,7 +73,7 @@ Received from /root/exchange_concept:
 Sent to /root/exchange_concept:
 > Captive cassette viable only with explicit accepted unload semantics: moving completed holder out of active nest to designated finished-storage position can be automatic unload, but gross XY indexing alone does not remove a carrier or provide separate output ejection. Keep retained completed tray slots reserved and counted. Retention tests need maximum populated occupied envelope, lower-side protrusion and acceleration; upright orientation only removes one obvious inversion hazard. I preserve separate shuttle and UR gripping as alternatives pending actual holder geometry.
 
-Post-discussion synthesis (ENGINEERING JUDGMENT): index-to-storage is a credible bounded-batch alternative when the Chief Engineer accepts that station-unload interpretation; do not silently substitute it for required physical output delivery. Reserve output before starting the last available holder, not only before release, to prevent a completed array becoming stranded. Seating checks need actual holder registration and verified mechanical contact; test their defect coverage using deliberately misseated surrogates. Follow-up read: [automatic exchange task](../../tasks/TASK-002-array-exchange-follow-up.md), requirement REQ-SYS-008.
+Post-discussion synthesis (ENGINEERING JUDGMENT): index-to-storage is a credible bounded-batch alternative when the Chief Engineer accepts that station-unload interpretation; do not silently substitute it for required physical output delivery. Reserve output before starting the last available holder, not only before release, to prevent a completed array becoming stranded. Seating checks need actual holder registration and verified mechanical contact; test their defect coverage using deliberately misseated surrogates. Follow-up read: [automatic exchange task](../../../../tasks/TASK-002-array-exchange-follow-up.md), requirement REQ-SYS-008.
 
 Received review request from /root:
 > Draft TASK-002-array-exchange.md accuracy review please after peer critiques. Include finite tray indexing alternative if meets finished unloading/fresh loading at station, explicit input/output capacity. Confirm dock does not itself free wrist, destination reservation before release, restart retention. Record actual response and request.

@@ -2,7 +2,7 @@
 
 ## 1. Status and context
 
-**PROPOSED; untested.** Automatically unloading finished arrays and loading fresh ones is required ([REQ-SYS-008](../../PROJECT_STATE.md#top-level-requirements)). Batch size, stick retention and exchange time remain **OPEN QUESTIONS**. The $1,500 budget is unverified; the Chief Engineer retains decision authority.
+**PROPOSED; untested.** Automatically unloading finished arrays and loading fresh ones is required ([REQ-SYS-008](../../../../PROJECT_STATE.md#top-level-requirements)). Batch size, stick retention and exchange time remain **OPEN QUESTIONS**. The $1,500 budget is unverified; the Chief Engineer retains decision authority.
 
 ## 2. Direct answer
 
@@ -35,4 +35,4 @@ Reserve finished storage, seat and measure the fresh holder, fill and verify it,
 
 Next: test two numbered carriers with full-population dummy geometry, deliberate seating faults and exhausted-buffer stops; test representative populated-array retention and damage separately.
 
-[Engineering recommendation](TASK-002-array-exchange.md) · [Evidence and actual specialist discussion](TASK-002-array-exchange-discussion.md) · [Communicator review](task002-working/exchange-communicator.md)
+[Engineering recommendation](engineering/TASK-002-array-exchange.md) · [Evidence and actual specialist discussion](records/TASK-002-array-exchange-discussion.md) · [Communicator review](records/exchange-communicator.md)

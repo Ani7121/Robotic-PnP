@@ -10,7 +10,7 @@
 
 **Required outcome:** Automatic insertion without functional damage; target ≤60 s/stick; ≤3 ft × 6 ft footprint; swappable holders; modification plan for sticks up to 1 × 1 × 20 mm. Alignment tolerance is unverified; **5 µm is a provisional target**.
 
-Trace: [TASK-001](../tasks/Task-001.md), [PROJECT_STATE: REQ-SYS-001–007](../../PROJECT_STATE.md). These are project-reported dimensions and requirements, not new test results.
+Trace: [TASK-001](../../../tasks/Task-001.md), [PROJECT_STATE: REQ-SYS-001–007](../../../../PROJECT_STATE.md). These are project-reported dimensions and requirements, not new test results.
 
 ## 2. Answer
 
@@ -49,4 +49,4 @@ Register each swapped holder. Measure the stick after rotation and any docking/s
 
 **Proposed milestones:** October—tolerance/handling tests; November—architecture comparison and automatic surrogate cycle; December—real-part demonstration. Dates depend on parts and metrology access. Budget feasibility is **unverified**.
 
-Confidence: high in coarse/fine separation; architecture choice remains open. Verification follows task-based assembly testing ([NISTIR 8090, Shneier et al., 2015](https://doi.org/10.6028/NIST.IR.8090)). Sources checked 1 October 2026. [Recorded team discussion](TASK-001-review-discussion.md).
+Confidence: high in coarse/fine separation; architecture choice remains open. Verification follows task-based assembly testing ([NISTIR 8090, Shneier et al., 2015](https://doi.org/10.6028/NIST.IR.8090)). Sources checked 1 October 2026. [Recorded team discussion](../records/TASK-001-review-discussion.md).

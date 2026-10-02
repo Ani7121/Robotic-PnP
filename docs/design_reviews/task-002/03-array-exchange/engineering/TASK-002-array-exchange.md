@@ -6,7 +6,7 @@
 
 **Question:** Which architecture best supports automatic completed-array unloading and fresh-array loading, and how should holders be constrained?
 
-Automatic exchange is now explicit **REQ-SYS-008**. Earlier manual-swap assumptions applied only to development and do not satisfy the completed system. [Clarified task](../tasks/TASK-002-array-exchange-follow-up.md), [requirements](../../PROJECT_STATE.md#top-level-requirements). Budget remains $1,500; no complete costed solution exists.
+Automatic exchange is now explicit **REQ-SYS-008**. Earlier manual-swap assumptions applied only to development and do not satisfy the completed system. [Clarified task](../../../../tasks/TASK-002-array-exchange-follow-up.md), [requirements](../../../../../PROJECT_STATE.md#top-level-requirements). Budget remains $1,500; no complete costed solution exists.
 
 ## 2. Answer
 
@@ -50,6 +50,6 @@ Choose robot carrier handling if its grip and reach are already available and it
 
 **Next experiment:** Two numbered carriers, a representative holder and full-population dummy geometry. Repeat automatic clamp/release with deliberate skew/debris and both empty/full geometry; measure seating, channel pose and deformation. Transport a representative populated array upright along a guarded trial path; inspect retention, damage and stopping behavior before expanding to multiple carriers. Use inert replicas for collisions, real parts for retention/damage conclusions. Test finished-to-fresh transitions and exhausted-buffer stopping. Then price the feeder, transfer, output capacity, sensors and precision hardware together.
 
-**CALCULATION:** With N sticks, mean insertion-cycle time t and exchange time E, array time is approximately `N·t + E` (serial operation, excluding setup/retries). Exchange allocation and whether ≤60 s/stick includes its amortized share remain open. [REQ-SYS-002](../../PROJECT_STATE.md#top-level-requirements).
+**CALCULATION:** With N sticks, mean insertion-cycle time t and exchange time E, array time is approximately `N·t + E` (serial operation, excluding setup/retries). Exchange allocation and whether ≤60 s/stick includes its amortized share remain open. [REQ-SYS-002](../../../../../PROJECT_STATE.md#top-level-requirements).
 
-**Confidence:** High that a common carrier interface preserves architecture options; low in the best transfer mechanism until holder geometry, retention, capacity and costs are known. [Plain-language reference](TASK-002-array-exchange-reference.md) · [Assessments and recorded discussion](TASK-002-array-exchange-discussion.md)
+**Confidence:** High that a common carrier interface preserves architecture options; low in the best transfer mechanism until holder geometry, retention, capacity and costs are known. [Plain-language reference](../TASK-002-array-exchange-reference.md) · [Assessments and recorded discussion](../records/TASK-002-array-exchange-discussion.md)
